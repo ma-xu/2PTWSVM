@@ -8,24 +8,12 @@ function [ u ] = svc( A,B,p,c1)
     u = zeros(size(H,2),1);
     %u_new = -pinv(G)*(ones(size(G,1),1));
     %u_new = ones(size(H,2),1);
-    u_new = [0.0061
-   -0.2165
-   -0.1322
-   -0.0042
-   -0.0010
-    0.1660
-   -0.0438
-    0.0040
-   -0.1474
-   -0.0530
-   -0.1062
-   -0.2358
-   -0.1007
-   0.6844];
+    [w1,w2,b1,b2] = TWSVC(A,B,c1,c1);
+    u_new = [w1;b1];
     itear = 0;
     
     
-    while norm(u-u_new)>0.00001
+    while norm(u-u_new)>0.00001 && itear<=100
         norm(u-u_new)
         u = u_new;
         S = 0.5*p*norm(H*u).^(p-2);
