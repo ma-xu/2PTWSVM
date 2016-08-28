@@ -9,8 +9,8 @@ BB = BB(:,2:end);
 
 
 p=3;  
-c1 = 1;
-c2 = 1;
+c1 =1;
+c2 =1;
 [ w1 ] = svc( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);
 
