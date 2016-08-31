@@ -8,7 +8,7 @@ BB = BB(:,2:end);
  
 
 
-p=3;  
+p=5;  
 c1 =1;
 c2 =1;
 [ w1 ] = svc( AA,BB,p,c1);

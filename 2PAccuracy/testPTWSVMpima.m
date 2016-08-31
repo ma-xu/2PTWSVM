@@ -11,7 +11,7 @@ BB = Train(find(TrainLabel(:,1)==-1),:);
  
 
 
-p=3;  
+p=0.3;  
 c1 = 2;
 c2 = 2;
 [ w1 ] = svc( AA,BB,p,c1);

@@ -16,7 +16,8 @@ function [ u ] = svc( A,B,p,c1)
     while norm(u-u_new)>0.0001 && itear<=100
         norm(u-u_new)
         u = u_new;
-        S = 0.5*p*norm(H*u).^(p-2);
+        %S = 0.5*p*norm(H*u).^(p-2);
+         S = norm(H*u).^(p-2);
 
         %HH = G*(S*H'*H)^(-1)*G';
         HH = G*inv(S*H'*H)*G';
