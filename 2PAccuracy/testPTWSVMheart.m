@@ -1,6 +1,11 @@
 clear;
 clc;
 load('heart.mat');
+
+%% 是否需要中心化
+
+
+
 AA = A(find(A(:,1)==1),:);
 AA = AA(:,2:end);
 BB = A(find(A(:,1)==2),:);
