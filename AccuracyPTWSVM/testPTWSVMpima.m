@@ -1,3 +1,5 @@
+addpath('../data');
+
 clear;
 clc;
 load('pimadata.mat');
@@ -9,9 +11,15 @@ TestLabel = d(301:end,:);
 AA = Train(find(TrainLabel(:,1)==1),:);
 BB = Train(find(TrainLabel(:,1)==-1),:);
  
-[w1,w2,b1,b2] = svc(AA,BB,1,1);
-w1 = [w1;b1;];
-w2 = [w2;b2];
+
+
+p=3;  
+c1 = 2;
+c2 = 2;
+[ w1 ] = svc( AA,BB,p,c1);
+[ w2 ] = svc( BB,AA,p,c2);
+
+
 
 
 X = Test;

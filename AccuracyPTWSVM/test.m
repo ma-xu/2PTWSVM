@@ -1,3 +1,5 @@
+addpath('../data');
+
 clear;
 clc;
 load('heart.mat');
