@@ -2,24 +2,15 @@ addpath('../data');
 
 clear;
 clc;
-load('spect.mat');
-
-A  = [test;train;];
-
+load('germ.mat');
 AA = A(find(A(:,1)==1),:);
 AA = AA(:,2:end);
-BB = A(find(A(:,1)==0),:);
+BB = A(find(A(:,1)==2),:);
 BB = BB(:,2:end);
  
-
-
-p=1.3;  
-c1 =0.5;
-c2 =1;
-[ w1] = svc( AA,BB,p,c1);
-[ w2 ] = svc( BB,AA,p,c2);
-
-
+[w1,w2,b1,b2] = svc(AA,BB,1,1);
+w1 = [w1;b1;];
+w2 = [w2;b2];
 
 
 X = A(:,2:end);
