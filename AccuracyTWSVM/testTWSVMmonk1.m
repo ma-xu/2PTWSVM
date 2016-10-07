@@ -4,9 +4,9 @@ clear;
 clc;
 load('monk1.mat');
 A = [test;train;];
-AA = A(find(A(:,1)==1),:);
+AA = train(find(train(:,1)==1),:);
 AA = AA(:,2:end);
-BB = A(find(A(:,1)==0),:);
+BB = train(find(train(:,1)==0),:);
 BB = BB(:,2:end);
  
 [w1,w2,b1,b2] = svc(AA,BB,1,1);
@@ -14,7 +14,7 @@ w1 = [w1;b1;];
 w2 = [w2;b2];
 
 
-X = A(:,2:end);
-label = A(:,1);
+X = test(:,2:end);
+label = test(:,1);
 label(label~=1) = 0;
 [ accuracy ] = accuracy( w1,w2,X ,label);
