@@ -1,15 +1,16 @@
+%样本太少会奇异，只能全部
 addpath('../data');
 
 clear;
 clc;
-load('pimadata.mat');
-Train = A(1:300,:);
-Test = A(301:end,:);
-TrainLabel = d(1:300,:);
-TestLabel = d(301:end,:);
+load('sonar.mat');
+Train = A(1:2:end,2:end);
+Test = A(2:2:end,2:end);
+TrainLabel = A(1:2:end,1);
+TestLabel = A(2:2:end,1);
 
 AA = Train(find(TrainLabel(:,1)==1),:);
-BB = Train(find(TrainLabel(:,1)==-1),:);
+BB = Train(find(TrainLabel(:,1)==0),:);
  
 
 

@@ -6,11 +6,12 @@ load('heart.mat');
 
 %% 是否需要中心化
 
+train = A(1:135,:);
+test = A(136:end,:);
 
-
-AA = A(find(A(:,1)==1),:);
+AA = train(find(train(:,1)==1),:);
 AA = AA(:,2:end);
-BB = A(find(A(:,1)==2),:);
+BB = train(find(train(:,1)==2),:);
 BB = BB(:,2:end);
  
 
@@ -24,7 +25,7 @@ c2 =1;
 
 
 
-X = A(:,2:end);
-label = A(:,1);
+X = test(:,2:end);
+label = test(:,1);
 label(label~=1) = 0;
 [ accuracy ] = accuracy( w1,w2,X ,label);
