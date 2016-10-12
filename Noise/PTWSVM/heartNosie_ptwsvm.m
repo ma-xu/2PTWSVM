@@ -1,10 +1,10 @@
-addpath('../data');
-
 clear;
 clc;
+addpath('../../data');
 load('heart.mat');
-
-%% 是否需要中心化
+load('../Noise.mat');
+Noise(:,1) = 0;
+%A = A+0.2*Noise;
 
 train = A(1:135,:);
 test = A(136:end,:);
@@ -16,7 +16,7 @@ BB = BB(:,2:end);
  
 
 
-p=5;  
+p=3;  
 c1 =0.5;
 c2 =1;
 [ w1 ] = svc( AA,BB,p,c1);

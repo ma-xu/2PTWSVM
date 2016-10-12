@@ -3,26 +3,19 @@ addpath('../data');
 clear;
 clc;
 load('heart.mat');
-
-%% 是否需要中心化
-
 train = A(1:135,:);
 test = A(136:end,:);
+
+
 
 AA = train(find(train(:,1)==1),:);
 AA = AA(:,2:end);
 BB = train(find(train(:,1)==2),:);
 BB = BB(:,2:end);
  
-
-
-p=5;  
-c1 =0.5;
-c2 =1;
-[ w1 ] = svc( AA,BB,p,c1);
-[ w2 ] = svc( BB,AA,p,c2);
-
-
+[w1,w2,b1,b2] = svc(AA,BB,1,1);
+w1 = [w1;b1;];
+w2 = [w2;b2];
 
 
 X = test(:,2:end);
