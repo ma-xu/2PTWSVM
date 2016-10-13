@@ -2,6 +2,12 @@ addpath('../data');
 clear;
 clc;
 load('australian.mat');
+
+avg = repmat(mean(A,1), size(A,1), 1);
+avg(:,1) = 0;
+A = A-avg;
+
+
 trainX = A(1:200,:);
 testX = A(201:end,:);
 
@@ -12,10 +18,10 @@ BB = BB(:,2:end);
  
 
 
-p=2.1;  
+p=0.3;  
 c1 =1;
 c2 =1;
-[ w1 ] = svc( AA,BB,p,c1);
+[ w1,distance,SChange,SCHA ] = svc2( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);
 
 

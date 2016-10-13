@@ -6,6 +6,13 @@ load('heart.mat');
 
 %% 是否需要中心化
 
+avg = repmat(mean(A,1), size(A,1), 1);
+avg(:,1) = 0;
+A = A-avg;
+
+
+
+
 train = A(1:135,:);
 test = A(136:end,:);
 
@@ -16,10 +23,10 @@ BB = BB(:,2:end);
  
 
 
-p=5;  
+p=1.5;  
 c1 =0.5;
 c2 =1;
-[ w1 ] = svc( AA,BB,p,c1);
+[ w1,distance,SChange,SCHA ] = svc2( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);
 
 

@@ -5,7 +5,8 @@ function [ accuracy ] = accuracy( w1,w2,X ,label)
     X = [X e];
     Y1 = abs(X*w1);
     Y2 = abs(X*w2);
-    predict = double(Y1<Y2);
+    predict = double(Y1/norm(w1)<Y2/norm(w2));
+   
     errNum = sum(predict~=label);
     accuracy = 1-errNum/length(label(:,1));
 end
