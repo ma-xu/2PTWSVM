@@ -25,7 +25,8 @@ function [ u ] = svc( A,B,p,c1)
         % S = 0.5*(p-2)*norm(H*u).^(p-2);
 
         %HH = G*(S*H'*H)^(-1)*G';
-        HH = G*inv(S*H'*H)*G';
+        gamma = 1e-7*speye(size(H,2));
+        HH = G*inv(S*H'*H+gamma)*G';
         HH = (HH+HH')/2;
         AA = diag(e2) ;
         bb = c1*e2;

@@ -30,13 +30,14 @@ function [ u ,distance,SChange,SCHA] = svc2( A,B,p,c1)
         % S = 0.5*(p-2)*norm(H*u).^(p-2);
 
         %HH = G*(S*H'*H)^(-1)*G';
-        HH = G*inv(S*H'*H)*G';
+        gamma = 1e-7*speye(size(H,2));
+        HH = G*inv(S*H'*H+gamma)*G';
         HH = (HH+HH')/2;
         AA = diag(e2) ;
         bb = c1*e2;
         alpha = quadprog(HH,-e2,AA,bb);
         %正则化因子
-        gamma = 1e-7*speye(size(H,2));
+       
         u_new = -inv(S*H'*H+gamma)*G'*alpha;
         itear = itear+1
         if(itear>1)

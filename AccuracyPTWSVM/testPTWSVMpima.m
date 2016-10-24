@@ -3,6 +3,11 @@ addpath('../data');
 clear;
 clc;
 load('pimadata.mat');
+
+avg = repmat(mean(A,1), size(A,1), 1);
+A = A-avg;
+
+
 Train = A(1:300,:);
 Test = A(301:end,:);
 TrainLabel = d(1:300,:);
@@ -13,9 +18,9 @@ BB = Train(find(TrainLabel(:,1)==-1),:);
  
 
 
-p=3;  
-c1 =0.5;
-c2 =1;
+p=1.4;  
+c1 =2;
+c2 =0.2;
 [ w1 ] = svc( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);
 

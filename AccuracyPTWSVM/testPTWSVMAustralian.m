@@ -1,7 +1,8 @@
 addpath('../data');
 clear;
 clc;
-load('australian.mat');
+load('m.mat');
+
 
 avg = repmat(mean(A,1), size(A,1), 1);
 avg(:,1) = 0;
@@ -18,9 +19,9 @@ BB = BB(:,2:end);
  
 
 
-p=0.3;  
+p=1.6;  
 c1 =1;
-c2 =1;
+c2 =2;
 [ w1,distance,SChange,SCHA ] = svc2( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);
 
