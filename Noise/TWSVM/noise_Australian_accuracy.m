@@ -2,30 +2,24 @@ addpath('../data');
 clear;
 clc;
 load('australian.mat');
+load('../NoiseData/NoiseAustralian.mat');
 
-
-avg = repmat(mean(A,1), size(A,1), 1);
-avg(:,1) = 0;
-A = A-avg;
+A = A+5*NoiseAustralian;
 
 
 trainX = A(1:200,:);
 testX = A(201:end,:);
+
+
 
 AA = trainX(find(trainX(:,1)==1),:);
 AA = AA(:,2:end);
 BB = trainX(find(trainX(:,1)==0),:);
 BB = BB(:,2:end);
  
-
-
-p=1.6;  
-c1 =1;
-c2 =2;
-[ w1,distance,SChange,SCHA ] = svc2( AA,BB,p,c1);
-[ w2 ] = svc( BB,AA,p,c2);
-
-
+[w1,w2,b1,b2] = svc(AA,BB,1,1);
+w1 = [w1;b1;];
+w2 = [w2;b2];
 
 
 X = testX(:,2:end);

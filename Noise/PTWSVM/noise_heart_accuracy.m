@@ -1,20 +1,20 @@
+addpath('../../data');
+
 clear;
 clc;
-addpath('../../data');
 load('heart.mat');
+load('../NoiseData/NoiseHeart.mat');
 
-%% 生成噪声
-randValue = randn(20,14);
-zero = zeros(size(A,1)-size(randValue,1),14);
-Noise = [zero;randValue;];
-vector = randperm(270);
-Noise = Noise(vector,:);
-    
+A = A+5*NoiseHeart;
 
-%% 分类
-%load('../Noise.mat');
-Noise(:,1) = 0;
-A = A+Noise;
+%% 是否需要中心化
+
+avg = repmat(mean(A,1), size(A,1), 1);
+avg(:,1) = 0;
+A = A-avg;
+
+
+
 
 train = A(1:135,:);
 test = A(136:end,:);
@@ -26,7 +26,7 @@ BB = BB(:,2:end);
  
 
 
-p=1.3;  
+p=1.5;  
 c1 =0.5;
 c2 =1;
 [ w1 ] = svc( AA,BB,p,c1);
