@@ -26,7 +26,7 @@ BB = BB(:,2:end);
 p=1.5;  
 c1 =0.5;
 c2 =1;
-[ w1 ] = svc( AA,BB,p,c1);
+[ w1,distance,SChange,SCHA ] = svc2( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);
 
 

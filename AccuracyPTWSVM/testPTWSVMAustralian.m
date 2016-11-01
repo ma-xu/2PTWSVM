@@ -19,7 +19,7 @@ BB = BB(:,2:end);
  
 
 
-p=1.6;  
+p=2;%1.6  
 c1 =1;
 c2 =2;
 [ w1,distance,SChange,SCHA ] = svc2( AA,BB,p,c1);
