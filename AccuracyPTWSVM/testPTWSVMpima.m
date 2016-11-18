@@ -18,8 +18,8 @@ BB = Train(find(TrainLabel(:,1)==-1),:);
  
 
 
-p=1.4;  
-c1 =2;
+p=1.3;  
+c1 =0.2;
 c2 =0.2;
 [ w1 ] = svc( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);

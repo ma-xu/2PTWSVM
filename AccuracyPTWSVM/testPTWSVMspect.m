@@ -27,11 +27,11 @@ BB = BB(:,2:end);
  
 
 
-p=0.3;  
-c1 =1;
-c2 =1;
-[ w1,distance,SChange,SCHA] = svc2( AA,BB,p,c1);
-[ w2 ] = svc2( BB,AA,p,c2);
+p=1.3;  
+c1 =0.5;
+c2 =0.5;
+[ w1] = svc( AA,BB,p,c1);
+[ w2 ] = svc( BB,AA,p,c2);
 
 
 

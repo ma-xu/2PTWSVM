@@ -2,23 +2,27 @@ addpath('../data');
 
 clear;
 clc;
-load('heart.mat');
+load('wpbc.mat');
 
-%% 是否需要中心化
-
-avg = repmat(mean(A,1), size(A,1), 1);
+avg = repmat(mean(test,1), size(test,1), 1);
 avg(:,1) = 0;
-A = A-avg;
+test = test-avg;
+
+avg = repmat(mean(train,1), size(train,1), 1);
+avg(:,1) = 0;
+train = train-avg;
 
 
 
 
-train = A(1:135,:);
-test = A(136:end,:);
 
-AA = train(find(train(:,1)==1),:);
+
+%A  = [test;train;];
+A  = [train];
+
+AA = A(find(A(:,1)==1),:);
 AA = AA(:,2:end);
-BB = train(find(train(:,1)==2),:);
+BB = A(find(A(:,1)==0),:);
 BB = BB(:,2:end);
  
 
