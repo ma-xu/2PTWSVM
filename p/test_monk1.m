@@ -13,11 +13,9 @@ BB = BB(:,2:end);
  
 
 
-p=1.3;  
+ 
 c1 =0.13;
 c2 =0.13;
-[ w1] = svc( AA,BB,p,c1);
-[ w2 ] = svc( BB,AA,p,c2);
 
 
 
@@ -25,4 +23,11 @@ c2 =0.13;
 X = test(:,2:end);
 label = test(:,1);
 label(label~=1) = 0;
-[ accuracy ] = accuracy( w1,w2,X ,label);
+
+accuracyList=[];
+for p=0.1:0.1:2
+    [ w1] = svc( AA,BB,p,c1);
+[ w2 ] = svc( BB,AA,p,c2);
+[ accuracyValue ] = accuracy( w1,w2,X ,label);
+accuracyList=[accuracyList;accuracyValue];
+end

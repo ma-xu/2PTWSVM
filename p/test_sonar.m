@@ -28,11 +28,9 @@ BB = Data(find(Label(:,1)==0),:);
 
 
 
-p=3;  
+  
 c1 =0.1;
 c2 =0.1;
-[ w1 ,distance,SS] = svc( AA,BB,p,c1);
-[ w2 ,distance,SS] = svc( BB,AA,p,c2);
 
 
 
@@ -41,4 +39,11 @@ X = Test;
 label = TestLabel(:,1);
 label(label~=1) = 0;
 %}
-[ accuracy ] = accuracy( w1,w2,Data ,Label);
+
+accuracyList=[];
+for p=0.1:0.1:2
+[ w1 ,distance,SS] = svc( AA,BB,p,c1);
+[ w2 ,distance,SS] = svc( BB,AA,p,c2);
+[ accuracyValue ] = accuracy( w1,w2,Data ,Label);
+accuracyList = [accuracyList;accuracyValue];
+end
