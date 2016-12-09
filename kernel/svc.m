@@ -15,8 +15,9 @@ function [u,distance,SS] = svc( A,B,p,c1)
     distance =[];
     SS=[];
     
-    while norm(u-u_new)>0.001 && itear<=20
+    while norm(u-u_new)>0.001 && itear<=100
         distance = [distance;norm(u-u_new)];
+        norm(u-u_new)
         u = u_new;  
         S = norm(H*u).^(p-2);
         SS=[SS;S];
@@ -37,7 +38,7 @@ function [u,distance,SS] = svc( A,B,p,c1)
        
         %u_new = -inv(S*H'*H+gamma)*G'*alpha;
         u_new = -(1/S)*((H'*H+gamma)\G')*alpha;
-        itear=itear+1;
+        itear = itear+1
     end
     
 

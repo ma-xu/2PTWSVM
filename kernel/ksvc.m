@@ -1,4 +1,17 @@
-function [u,distance,SS] = svc( A,B,p,c1)
+function [ u ] = ksvc( A,B,p,c1,options )
+%KSVC Summary of this function goes here
+%   Detailed explanation goes here
+%   options.KernelType='Gaussian';
+%           KernelType  -  Choices are:
+%               'Gaussian'      - e^{-(|x-y|^2)/2t^2}
+%               'Polynomial'    - (x'*y)^d
+%               'PolyPlus'      - (x'*y+1)^d
+%               'Linear'        -  x'*y
+
+    C = [A; B];
+    
+    A = constructKernel(A,C,options);
+    B = constructKernel(B,C,options);
     
     e1 = ones(size(A,1),1);
     e2 = ones(size(B,1),1);
@@ -15,8 +28,9 @@ function [u,distance,SS] = svc( A,B,p,c1)
     distance =[];
     SS=[];
     
-    while norm(u-u_new)>0.001 && itear<=20
+    while norm(u-u_new)>0.0001 && itear<=100
         distance = [distance;norm(u-u_new)];
+        norm(u-u_new)
         u = u_new;  
         S = norm(H*u).^(p-2);
         SS=[SS;S];
@@ -29,17 +43,16 @@ function [u,distance,SS] = svc( A,B,p,c1)
         %HH = (1/S)*G*inv(H'*H+gamma)*G';
         HH = (1/S)*G*((H'*H+gamma)\G');
         HH = (HH+HH')/2;
-        AA = diag(e2) ;
-        bb = c1*e2;
+        %AA = diag(e2) ;
+        %bb = c1*e2;
         %alpha = quadprog(HH,-0.5*e2,AA,bb);
         %alpha = quadprog(HH,-0.5*e2,[],[]);
         alpha = qpSOR(HH,0.7,c1,0.05);
        
         %u_new = -inv(S*H'*H+gamma)*G'*alpha;
         u_new = -(1/S)*((H'*H+gamma)\G')*alpha;
-        itear=itear+1;
+        itear = itear+1
     end
-    
 
 end
 
