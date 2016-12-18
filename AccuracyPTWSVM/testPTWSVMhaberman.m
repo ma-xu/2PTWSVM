@@ -22,6 +22,8 @@ BB = BB(:,2:end);
 p=1.3;
 c1 =0.03;
 c2 =0.03;
+
+
 [ w1] = svc( AA,BB,p,c1);
 [ w2 ] = svc( BB,AA,p,c2);
 
