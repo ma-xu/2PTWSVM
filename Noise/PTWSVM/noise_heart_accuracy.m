@@ -3,9 +3,9 @@ addpath('../../data');
 clear;
 clc;
 load('heart.mat');
-load('../NoiseData/NoiseHeart.mat');
+load('../NoiseData/noise_Heart.mat');
 
-A = A+5*NoiseHeart;
+A = A+10*noise_Heart;
 
 %% 是否需要中心化
 

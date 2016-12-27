@@ -3,9 +3,9 @@ clear;
 clc;
 addpath('../../data');
 load('heart.mat');
-load('../NoiseData/NoiseHeart.mat');
+load('../NoiseData/noise_Heart.mat');
 
-A = A+5*NoiseHeart;
+A = A+10*noise_Heart;
 
 
 

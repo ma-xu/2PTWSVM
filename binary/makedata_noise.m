@@ -10,13 +10,8 @@ A = [
  9 1;
  10 0;
 ];
-A = [A; 3.5 4.5;]
-%{
-A = A+rand(11,2);
-A = A-rand(11,2);
-A(A<0) = 0;
-%}
-plot(A(:,1),A(:,2),'o');
+
+
 
 B  = [
  0 0;
@@ -24,19 +19,26 @@ B  = [
  2 2;
  3 3;
  4 4;
- 5 5;
  6 6;
  7 7;
  8 8;
  9 9;
  10 10;  
 ];
-B = [B;8.5 2.5];
-%{
-B = B+0.5*rand(11,2);
-B = B-0.5*rand(11,2);
-B(B<0) = 0;
-%}
-hold on 
+
+%加噪声程度（比例，程度）
+rate = 0.2;
+degree = 3;
+num = fix(length(A)*rate);
+randIndex = A(randperm(length(A),num));
+noiseA = rand(num,2)-rand(num,2);
+A(randIndex,:) = A(randIndex,:)+degree*noiseA;
+
+noiseB = rand(num,2)-rand(num,2);
+B(randIndex,:) = B(randIndex,:)+degree*noiseB;
+
+
+plot(A(:,1),A(:,2),'o');
+hold on ;
 plot(B(:,1),B(:,2),'x');
 
