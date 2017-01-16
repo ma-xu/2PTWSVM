@@ -5,6 +5,11 @@ clc;
 load('monk1.mat');
 A = [test;train;];
 Data = A(:,2:end);
+Max=max(max(Data));
+Min=min(min(Data));
+Data=2*(Data-Min)./(Max-Min)-1;
+
+
 Label  = A(:,1);
 Label(Label==0)=-1; %½«2¸Ä³É£­1
 
