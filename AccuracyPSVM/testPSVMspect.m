@@ -11,4 +11,7 @@ Data=2*(Data-Min)./(Max-Min)-1;
 
 Label  = A(:,1);
 Label(Label==0)=-1; %½«0¸Ä³É£­1
-[w,gamma, trainCorr, testCorr, cpu_time, nu]=psvm(Data,Label,10);
+[w,gamma, trainCorr, testCorr, cpu_time, nu,testcorrstd]=psvm2(Data,Label,10);
+testCorr
+cpu_time
+testcorrstd
