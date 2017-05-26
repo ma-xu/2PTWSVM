@@ -1,0 +1,282 @@
+
+dataset =
+
+cancer
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.2500
+
+
+p =
+
+    0.8000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.96%
+Testing set correctness: 0.96%
+Elapse time:     0.4442
+
+C =
+
+    0.2500
+
+
+p =
+
+    0.6000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.96%
+Testing set correctness: 0.98%
+Elapse time:     0.4844
+
+C =
+
+     1
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.97%
+Testing set correctness: 0.91%
+Elapse time:     0.3554
+
+C =
+
+     1
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.97%
+Testing set correctness: 0.97%
+Elapse time:     0.3035
+
+C =
+
+     1
+
+
+p =
+
+    1.3000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.96%
+Testing set correctness: 0.98%
+Elapse time:     0.3861
+==============================================
+Training set correctness: 96.27%
+Testing set correctness: 96.04%
+Average cpu_time:     1.9736
+
+testcorrstd =
+
+    2.4933
+
+
+dataset =
+
+cancer
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.1250
+
+
+p =
+
+    0.3000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.96%
+Testing set correctness: 0.96%
+Elapse time:     0.3919
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.96%
+Testing set correctness: 0.98%
+Elapse time:     0.5004
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.97%
+Testing set correctness: 0.91%
+Elapse time:     1.4100
+
+C =
+
+    0.1250
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.97%
+Testing set correctness: 0.97%
+Elapse time:     0.4141
+
+C =
+
+    0.1250
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.96%
+Testing set correctness: 0.98%
+Elapse time:     0.6696
+==============================================
+Training set correctness: 96.38%
+Testing set correctness: 96.04%
+Average cpu_time:     3.3861
+
+testcorrstd =
+
+    2.4933
+
+
+dataset =
+
+cancer
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.96%
+Testing set correctness: 0.96%
+Elapse time:     1.1434
+
+C =
+
+    0.2500
+
+
+p =
+
+    0.5000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.96%
+Testing set correctness: 0.97%
+Elapse time:     0.8606
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.97%
+Testing set correctness: 0.91%
+Elapse time:     0.5874
+
+C =
+
+     1
+
+
+p =
+
+    0.7000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.97%
+Testing set correctness: 0.97%
+Elapse time:     0.7850
+
+C =
+
+    0.5000
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.96%
+Testing set correctness: 0.96%
+Elapse time:     1.1613
+==============================================
+Training set correctness: 96.41%
+Testing set correctness: 95.60%
+Average cpu_time:     4.5376
+
+testcorrstd =
+
+    2.2377
+

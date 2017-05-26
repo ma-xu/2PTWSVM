@@ -1,0 +1,773 @@
+
+dataset =
+
+blood
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.2500
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.76%
+Testing set correctness: 0.79%
+Elapse time:     0.7871
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.77%
+Testing set correctness: 0.71%
+Elapse time:     0.9641
+
+C =
+
+    0.1250
+
+
+p =
+
+    1.5000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.76%
+Testing set correctness: 0.81%
+Elapse time:     0.7018
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.9000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.76%
+Testing set correctness: 0.76%
+Elapse time:     0.9690
+
+C =
+
+    0.1250
+
+
+p =
+
+    1.6000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.78%
+Testing set correctness: 0.73%
+Elapse time:     0.3442
+==============================================
+Training set correctness: 76.67%
+Testing set correctness: 76.21%
+Average cpu_time:     3.7662
+
+testcorrstd =
+
+    3.6329
+
+
+dataset =
+
+blood
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.76%
+Testing set correctness: 0.79%
+Elapse time:     0.5046
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.3000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.78%
+Testing set correctness: 0.72%
+Elapse time:     0.4667
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.75%
+Testing set correctness: 0.81%
+Elapse time:     0.2148
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.76%
+Testing set correctness: 0.76%
+Elapse time:     0.8581
+
+C =
+
+    0.2500
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.78%
+Testing set correctness: 0.73%
+Elapse time:     0.5296
+==============================================
+Training set correctness: 76.60%
+Testing set correctness: 76.21%
+Average cpu_time:     2.5738
+
+testcorrstd =
+
+    3.2764
+
+
+dataset =
+
+blood
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.79%
+Testing set correctness: 0.77%
+Elapse time:     1.9419
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 2
+Training set correctness: 0.78%
+Testing set correctness: 0.72%
+Elapse time:     1.0227
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.77%
+Testing set correctness: 0.81%
+Elapse time:     1.8772
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 4
+Training set correctness: 0.77%
+Testing set correctness: 0.79%
+Elapse time:     0.7585
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.78%
+Testing set correctness: 0.71%
+Elapse time:     1.9056
+==============================================
+Training set correctness: 77.71%
+Testing set correctness: 75.94%
+Average cpu_time:     7.5059
+
+testcorrstd =
+
+    3.8015
+
+
+dataset =
+
+blood
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.79%
+Testing set correctness: 0.76%
+Elapse time:     1.9178
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 2
+Training set correctness: 0.78%
+Testing set correctness: 0.72%
+Elapse time:     0.9515
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.77%
+Testing set correctness: 0.81%
+Elapse time:     1.7910
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 4
+Training set correctness: 0.77%
+Testing set correctness: 0.79%
+Elapse time:     0.7626
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('qpSOR', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/qpSOR.m', 32)" style="font-weight:bold">qpSOR</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/qpSOR.m',32,0)">line 32</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TWSVC', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/TWSVC.m', 36)" style="font-weight:bold">TWSVC</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/TWSVC.m',36,0)">line 36</a>)
+alpha2=qpSOR(H2,0.7,C2,0.05);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 8)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',8,0)">line 8</a>)
+    [w1,w2,b1,b2] = TWSVC(A,B,c1,c1);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 31)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',31,0)">line 31</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 428)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',428,0)">line 428</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+load /Users/melody/Desktop/2PTWSVM/data/germ.mat;
+clear
+clc
+load /Users/melody/Desktop/2PTWSVM/data/germ.mat;
+
+test_germ
+
+ker =
+
+linear
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('qpSOR', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/qpSOR.m', 51)" style="font-weight:bold">qpSOR</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/qpSOR.m',51,0)">line 51</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TWSVC', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/TWSVC.m', 36)" style="font-weight:bold">TWSVC</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/TWSVC.m',36,0)">line 36</a>)
+alpha2=qpSOR(H2,0.7,C2,0.05);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 8)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',8,0)">line 8</a>)
+    [w1,w2,b1,b2] = TWSVC(A,B,c1,c1);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_germ', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_germ.m', 59)" style="font-weight:bold">test_germ</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_germ.m',59,0)">line 59</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+clear
+clc
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+clear
+clc
+load /Users/melody/Desktop/2PTWSVM/data/australian.mat;
+
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('qpSOR', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/qpSOR.m', 51)" style="font-weight:bold">qpSOR</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/qpSOR.m',51,0)">line 51</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('TWSVC', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/TWSVC.m', 36)" style="font-weight:bold">TWSVC</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/TWSVC.m',36,0)">line 36</a>)
+alpha2=qpSOR(H2,0.7,C2,0.05);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 8)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',8,0)">line 8</a>)
+    [w1,w2,b1,b2] = TWSVC(A,B,c1,c1);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 31)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',31,0)">line 31</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_australian', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_australian.m', 59)" style="font-weight:bold">test_australian</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_australian.m',59,0)">line 59</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+2^(-1.9)
+
+ans =
+
+    0.2679
+
+clear
+clc
+A=rand(3,4)
+
+A =
+
+    0.7992    0.9748    0.0667    0.1441
+    0.1019    0.2307    0.4298    0.2336
+    0.7899    0.4321    0.8262    0.4566
+
+S=norm(A).^(-1.9)
+
+S =
+
+    0.3496
+
+SS=(norm(A)).^(-1.9)
+
+SS =
+
+    0.3496
+
+SSs=(norm(A))^(-1.9)
+
+SSs =
+
+    0.3496
+
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+H'*H
+
+ans =
+
+  Columns 1 through 6
+
+  183.9948  183.8730  183.9748  183.9907  183.9659  183.9786
+  183.8730  183.7513  183.8531  183.8689  183.8442  183.8569
+  183.9748  183.8531  183.9549  183.9707  183.9460  183.9587
+  183.9907  183.8689  183.9707  183.9866  183.9618  183.9745
+  183.9659  183.8442  183.9460  183.9618  183.9370  183.9498
+  183.9786  183.8569  183.9587  183.9745  183.9498  183.9625
+  183.9850  183.8633  183.9651  183.9809  183.9562  183.9689
+  183.9940  183.8722  183.9740  183.9899  183.9651  183.9779
+  183.9948  183.8730  183.9748  183.9907  183.9659  183.9787
+  183.9812  183.8595  183.9613  183.9771  183.9524  183.9651
+  183.9957  183.8739  183.9757  183.9916  183.9668  183.9795
+  183.9902  183.8684  183.9702  183.9861  183.9613  183.9740
+  183.3375  183.2162  183.3176  183.3334  183.3087  183.3214
+  175.3108  175.1944  175.2924  175.3070  175.2832  175.2955
+ -183.9974 -183.8756 -183.9774 -183.9933 -183.9685 -183.9812
+
+  Columns 7 through 12
+
+  183.9850  183.9940  183.9948  183.9812  183.9957  183.9902
+  183.8633  183.8722  183.8730  183.8595  183.8739  183.8684
+  183.9651  183.9740  183.9748  183.9613  183.9757  183.9702
+  183.9809  183.9899  183.9907  183.9771  183.9916  183.9861
+  183.9562  183.9651  183.9659  183.9524  183.9668  183.9613
+  183.9689  183.9779  183.9787  183.9651  183.9795  183.9740
+  183.9753  183.9843  183.9851  183.9715  183.9859  183.9804
+  183.9843  183.9932  183.9940  183.9805  183.9949  183.9894
+  183.9851  183.9940  183.9948  183.9813  183.9957  183.9902
+  183.9715  183.9805  183.9813  183.9677  183.9821  183.9766
+  183.9859  183.9949  183.9957  183.9821  183.9966  183.9911
+  183.9804  183.9894  183.9902  183.9766  183.9911  183.9856
+  183.3278  183.3367  183.3375  183.3240  183.3384  183.3329
+  175.3014  175.3101  175.3109  175.2978  175.3117  175.3065
+ -183.9876 -183.9966 -183.9974 -183.9838 -183.9983 -183.9928
+
+  Columns 13 through 15
+
+  183.3375  175.3108 -183.9974
+  183.2162  175.1944 -183.8756
+  183.3176  175.2924 -183.9774
+  183.3334  175.3070 -183.9933
+  183.3087  175.2832 -183.9685
+  183.3214  175.2955 -183.9812
+  183.3278  175.3014 -183.9876
+  183.3367  175.3101 -183.9966
+  183.3375  175.3109 -183.9974
+  183.3240  175.2978 -183.9838
+  183.3384  175.3117 -183.9983
+  183.3329  175.3065 -183.9928
+  182.6846  174.7049 -183.3401
+  174.7049  173.5096 -175.3133
+ -183.3401 -175.3133  184.0000
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+clear
+clc
+test_australian
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_log

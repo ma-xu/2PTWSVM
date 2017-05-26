@@ -1,0 +1,39 @@
+function [u1,u2,bias1,bias2]=ksvc(c,d,C,Y); 
+
+
+
+
+K1=c;
+K2=d;
+
+v=C;
+
+[m,n]=size(K1);e=ones(m,1);
+[m2,n2]=size(K2);e2=ones(m2,1);
+K1=K1(:,1:m);
+K2=K2(:,1:m2);
+save f
+
+CC1=mean(K1);
+
+CC2=mean(K2);
+
+G=[K1 -e]'*[K1 -e];
+H=[K2 -e2]'*[K2 -e2]+[K2-e2*CC2 -e2]'*[K2-e2*CC2  -e2];
+
+L=[K2 -e2]'*[K2 -e2];
+M=[K1 -e]'*[K1 -e]+[K1-e*CC1  -e]'*[K1-e*CC1 -e];
+
+[A,B]=eig(G-v*H);%A是向量，B是特征值,第一列向量对应其最小特征值
+[A2,B2]=eig(L-v*M);
+vector=A(:,1);%得到第一列向量对应其最小特征值
+vector2=A2(:,1);
+
+u1=vector(1:end-1,1);
+u2=vector2(1:end-1,1);
+
+bias1=vector(end,1);
+bias2=vector2(end,1);
+    
+  end
+    

@@ -1,0 +1,1199 @@
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.0312
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.94%
+Testing set correctness: 0.87%
+Elapse time:     0.0642
+
+C =
+
+    0.0312
+
+
+p =
+
+    1.5000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.91%
+Testing set correctness: 0.87%
+Elapse time:     0.0790
+
+C =
+
+    0.0156
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.94%
+Testing set correctness: 0.90%
+Elapse time:     0.0468
+
+C =
+
+    0.0312
+
+
+p =
+
+    1.5000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.88%
+Testing set correctness: 0.89%
+Elapse time:     0.0739
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.3000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.92%
+Testing set correctness: 0.92%
+Elapse time:     0.1183
+==============================================
+Training set correctness: 91.74%
+Testing set correctness: 88.88%
+Average cpu_time:     0.3821
+
+testcorrstd =
+
+    1.7035
+
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.9000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.91%
+Testing set correctness: 0.90%
+Elapse time:     0.1309
+
+C =
+
+    0.2500
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.90%
+Testing set correctness: 0.83%
+Elapse time:     0.1055
+
+C =
+
+    0.0039
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 3
+Training set correctness: 0.92%
+Testing set correctness: 0.86%
+Elapse time:     0.0341
+
+C =
+
+    0.0156
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 4
+Training set correctness: 0.92%
+Testing set correctness: 0.74%
+Elapse time:     0.0343
+
+C =
+
+    0.0156
+
+
+p =
+
+    1.7000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.89%
+Testing set correctness: 0.83%
+Elapse time:     0.0341
+==============================================
+Training set correctness: 90.74%
+Testing set correctness: 83.19%
+Average cpu_time:     0.3389
+
+testcorrstd =
+
+    5.1411
+
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+{Reference to non-existent field 'sol'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 27)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',27,0)">line 27</a>)
+        alpha=res.sol.itr.xx;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 91)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',91,0)">line 91</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+clear
+clc
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+{Reference to non-existent field 'sol'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 27)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',27,0)">line 27</a>)
+        alpha=res.sol.itr.xx;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 91)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',91,0)">line 91</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Reference to non-existent field 'sol'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 27)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',27,0)">line 27</a>)
+        alpha=res.sol.itr.xx;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 91)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',91,0)">line 91</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+clear
+clc
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+{Reference to non-existent field 'sol'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 27)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',27,0)">line 27</a>)
+        alpha=res.sol.itr.xx;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 91)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',91,0)">line 91</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+if system_dependent('IsDebugMode')==1, dbcont; end
+Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+clear
+clc
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+svc
+if system_dependent('IsDebugMode')==1, dbquit; end
+clear;clc
+dbstop if error
+test_ionodata
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+________________________________________________
+Fold 1
+Training set correctness: 0.95%
+Testing set correctness: 0.84%
+Elapse time:     0.0155
+________________________________________________
+Fold 2
+Training set correctness: 0.91%
+Testing set correctness: 0.84%
+Elapse time:     0.0114
+________________________________________________
+Fold 3
+Training set correctness: 0.92%
+Testing set correctness: 0.77%
+Elapse time:     0.0129
+________________________________________________
+Fold 4
+Training set correctness: 0.95%
+Testing set correctness: 0.94%
+Elapse time:     0.0092
+________________________________________________
+Fold 5
+Training set correctness: 0.93%
+Testing set correctness: 0.89%
+Elapse time:     0.0067
+==============================================
+Training set correctness: 93.38%
+Testing set correctness: 85.75%
+Average cpu_time:     0.0111
+
+testcorrstd =
+
+    5.6590
+
+test_ionodata
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Reference to non-existent field 'sol'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 27)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',27,0)">line 27</a>)
+        alpha=res.sol.itr.xx;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 91)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',91,0)">line 91</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_ionodata
+
+ker =
+
+linear
+
+clear
+clc
+A=eye(4)
+
+A =
+
+     1     0     0     0
+     0     1     0     0
+     0     0     1     0
+     0     0     0     1
+
+B=speye(4)
+
+B =
+
+   (1,1)        1
+   (2,2)        1
+   (3,3)        1
+   (4,4)        1
+
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbcont; end
+{Reference to a cleared variable m.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/svc.m', 33)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/svc.m',33,0)">line 33</a>)
+     c2 = -ones(m,1);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/K_svm_train.m', 31)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/K_svm_train.m',31,0)">line 31</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/hibiscus.m', 43)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/hibiscus.m',43,0)">line 43</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/hibiscus.m', 13)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/hibiscus.m',13,0)">line 13</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_ionodata', '/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/test_ionodata.m', 25)" style="font-weight:bold">test_ionodata</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_TWSVM/test_ionodata.m',25,0)">line 25</a>)
+Result=hibiscus(dtrain,Ctrain,k);
+
+} 
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+HHHHHH=H'*H;
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_heart
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+test_ionodata
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+
+MOSEK Version 8.0.0.73 (Build date: 2017-5-5 15:41:11)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: MACOSX/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : QO (quadratic optimization problem)
+  Constraints            : 1               
+  Cones                  : 0               
+  Scalar variables       : 89              
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Quadratic to conic reformulation started.
+Quadratic to conic reformulation terminated. Time: 0.04    
+Interior-point optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator started.
+Freed constraints in eliminator : 19
+Eliminator terminated.
+Eliminator - tries                  : 1                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.03            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.17    
+Optimizer  - threads                : 4               
+Optimizer  - solved problem         : the dual        
+Optimizer  - Constraints            : 89
+Optimizer  - Cones                  : 1
+Optimizer  - Scalar variables       : 269               conic                  : 91              
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.00              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 4005              after factor           : 4005            
+Factor     - dense dim.             : 0                 flops                  : 4.63e+05        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   1.0e+00  1.0e+00  1.4e+00  0.00e+00   0.000000000e+00   -1.414213562e+00  1.0e+00  0.38  
+1   7.3e-02  7.3e-02  4.8e-01  7.59e-01   -2.223428452e-01  -4.809052260e-01  7.3e-02  0.75  
+2   1.5e-02  1.5e-02  2.4e-01  1.35e+00   -2.964567322e-03  -3.928018941e-02  1.5e-02  0.79  
+3   4.5e-03  4.5e-03  2.1e-01  1.55e+00   -3.276383158e-02  -4.233375163e-02  4.5e-03  0.82  
+4   1.2e-03  1.2e-03  1.3e-01  1.60e+00   -1.307688073e-02  -1.502362254e-02  1.2e-03  0.85  
+5   1.2e-04  1.2e-04  4.5e-02  1.27e+00   -3.779289985e-04  -5.481987192e-04  1.2e-04  0.90  
+6   2.4e-05  2.4e-05  2.2e-02  1.02e+00   -1.254085359e-04  -1.604350721e-04  2.4e-05  0.92  
+7   6.3e-06  6.3e-06  1.2e-02  1.01e+00   -4.829576624e-05  -5.749924871e-05  6.3e-06  0.95  
+8   6.9e-07  6.9e-07  4.3e-03  1.00e+00   1.676808468e-06   6.341231785e-07   6.9e-07  0.98  
+9   1.7e-07  1.7e-07  2.2e-03  1.00e+00   8.333051904e-07   5.731424752e-07   1.7e-07  1.02  
+10  3.9e-07  2.5e-08  7.6e-04  1.00e+00   1.790636264e-07   1.424970044e-07   2.5e-08  1.05  
+Interior-point optimizer terminated. Time: 1.10. 
+
+Optimizer terminated. Time: 1.50    
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: 1.7956058592e-07    nrm: 2e-08    Viol.  con: 0e+00    var: 9e-09  
+  Dual.    obj: 1.4745432587e-07    nrm: 1e+00    Viol.  con: 0e+00    var: 2e-03  
+Optimizer summary
+  Optimizer                 -                        time: 1.50    
+    Interior-point          - iterations : 10        time: 1.10    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 0         time: 0.00    
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_ionodata
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_ionodata
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+
+MOSEK Version 8.0.0.73 (Build date: 2017-5-5 15:41:11)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: MACOSX/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : QO (quadratic optimization problem)
+  Constraints            : 1               
+  Cones                  : 0               
+  Scalar variables       : 84              
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Quadratic to conic reformulation started.
+Quadratic to conic reformulation terminated. Time: 0.03    
+Interior-point optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.04            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.08    
+Optimizer  - threads                : 4               
+Optimizer  - solved problem         : the dual        
+Optimizer  - Constraints            : 84
+Optimizer  - Cones                  : 1
+Optimizer  - Scalar variables       : 254               conic                  : 86              
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.00              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 3570              after factor           : 3570            
+Factor     - dense dim.             : 0                 flops                  : 3.94e+05        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   2.0e+00  1.0e+00  1.4e+00  0.00e+00   0.000000000e+00   -1.414213562e+00  1.0e+00  0.35  
+1   2.9e-01  1.5e-01  3.1e-01  1.05e-01   6.389578151e+00   6.772564446e+00   1.5e-01  0.75  
+2   7.4e-02  3.7e-02  2.7e-01  1.22e+00   1.356021063e+00   1.243423323e+00   3.7e-02  0.78  
+3   1.4e-02  6.9e-03  1.4e-01  1.28e+00   1.592054007e-01   1.389451863e-01   6.9e-03  0.81  
+4   2.9e-03  1.5e-03  1.4e-01  1.63e+00   5.705105094e-03   1.644552282e-03   1.5e-03  0.84  
+5   6.8e-04  3.4e-04  4.4e-02  1.59e+00   4.424954844e-03   3.999863319e-03   3.4e-04  0.90  
+6   4.6e-05  2.3e-05  1.6e-02  1.07e+00   1.551914624e-04   1.138592846e-04   2.3e-05  0.91  
+7   7.8e-06  3.9e-06  7.2e-03  1.01e+00   3.899756693e-05   3.171823357e-05   3.9e-06  0.94  
+8   3.7e-06  1.9e-06  4.9e-03  1.00e+00   6.833942807e-06   3.397158075e-06   1.9e-06  0.99  
+9   6.1e-07  3.0e-07  2.0e-03  1.00e+00   5.868227421e-06   5.304114132e-06   3.0e-07  1.00  
+10  1.2e-07  5.1e-08  8.3e-04  1.00e+00   1.251829758e-06   1.155867385e-06   5.1e-08  1.04  
+11  3.9e-07  1.4e-08  4.0e-04  1.00e+00   1.930315245e-07   1.686796051e-07   1.4e-08  1.08  
+Interior-point optimizer terminated. Time: 1.11. 
+
+Optimizer terminated. Time: 1.55    
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: 1.8454272838e-07    nrm: 2e-08    Viol.  con: 0e+00    var: 4e-09  
+  Dual.    obj: 3.3293559159e-07    nrm: 1e+00    Viol.  con: 0e+00    var: 8e-02  
+Optimizer summary
+  Optimizer                 -                        time: 1.55    
+    Interior-point          - iterations : 11        time: 1.11    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 0         time: 0.00    
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+
+MOSEK Version 8.0.0.73 (Build date: 2017-5-5 15:41:11)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: MACOSX/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : QO (quadratic optimization problem)
+  Constraints            : 1               
+  Cones                  : 0               
+  Scalar variables       : 84              
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Quadratic to conic reformulation started.
+Quadratic to conic reformulation terminated. Time: 0.03    
+Interior-point optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.06            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.12    
+Optimizer  - threads                : 4               
+Optimizer  - solved problem         : the dual        
+Optimizer  - Constraints            : 84
+Optimizer  - Cones                  : 1
+Optimizer  - Scalar variables       : 254               conic                  : 86              
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.00              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 3570              after factor           : 3570            
+Factor     - dense dim.             : 0                 flops                  : 4.01e+05        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   7.1e-01  1.0e+00  1.7e+00  0.00e+00   0.000000000e+00   -7.071067812e-01  1.0e+00  0.35  
+1   1.8e-02  2.6e-02  3.2e-02  -8.78e-01  -3.736147844e+00  -2.058561651e+00  2.6e-02  0.76  
+2   3.1e-03  4.4e-03  3.6e-02  1.52e+00   -5.291003771e-01  -4.996428445e-01  4.4e-03  0.77  
+3   8.6e-04  1.2e-03  1.7e-02  4.33e+00   -2.762740832e-02  -1.326983481e-02  1.2e-03  0.82  
+4   3.0e-07  4.2e-07  3.4e-04  1.06e+00   -1.310704618e-05  -9.112781476e-06  4.2e-07  0.86  
+5   9.2e-10  1.8e-11  3.1e-11  1.00e+00   -7.050807763e-10  -7.203757522e-10  1.8e-11  0.90  
+Interior-point optimizer terminated. Time: 0.93. 
+
+Optimizer terminated. Time: 1.39    
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: -6.9863195316e-10   nrm: 8e-12    Viol.  con: 0e+00    var: 8e-12  
+  Dual.    obj: -7.2037479827e-10   nrm: 1e+00    Viol.  con: 0e+00    var: 3e-15  
+Optimizer summary
+  Optimizer                 -                        time: 1.39    
+    Interior-point          - iterations : 5         time: 0.93    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 0         time: 0.00    
+
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+test_heart
+
+ker =
+
+linear
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+
+MOSEK Version 8.0.0.73 (Build date: 2017-5-5 15:41:11)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: MACOSX/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : QO (quadratic optimization problem)
+  Constraints            : 1               
+  Cones                  : 0               
+  Scalar variables       : 73              
+  Matrix variables       : 0               
+  Integer variables      : 0               
+
+Optimizer started.
+Quadratic to conic reformulation started.
+Quadratic to conic reformulation terminated. Time: 0.03    
+Interior-point optimizer started.
+Presolve started.
+Linear dependency checker started.
+Linear dependency checker terminated.
+Eliminator - tries                  : 0                 time                   : 0.00            
+Lin. dep.  - tries                  : 1                 time                   : 0.01            
+Lin. dep.  - number                 : 0               
+Presolve terminated. Time: 0.09    
+Optimizer  - threads                : 4               
+Optimizer  - solved problem         : the dual        
+Optimizer  - Constraints            : 73
+Optimizer  - Cones                  : 1
+Optimizer  - Scalar variables       : 221               conic                  : 75              
+Optimizer  - Semi-definite variables: 0                 scalarized             : 0               
+Factor     - setup time             : 0.00              dense det. time        : 0.00            
+Factor     - ML order time          : 0.00              GP order time          : 0.00            
+Factor     - nonzeros before factor : 2701              after factor           : 2701            
+Factor     - dense dim.             : 0                 flops                  : 2.68e+05        
+ITE PFEAS    DFEAS    GFEAS    PRSTATUS   POBJ              DOBJ              MU       TIME  
+0   7.1e-01  1.0e+00  1.7e+00  0.00e+00   0.000000000e+00   -7.071067812e-01  1.0e+00  0.29  
+1   3.2e-02  4.6e-02  4.4e-02  -8.58e-01  -5.900237302e+00  -3.076473920e+00  4.6e-02  0.67  
+2   5.1e-03  7.3e-03  3.6e-02  1.16e+00   -1.036705842e+00  -9.600758679e-01  7.3e-03  0.70  
+3   8.2e-04  1.2e-03  2.8e-02  4.43e+00   -4.598691565e-02  -4.223781971e-02  1.2e-03  0.74  
+4   7.8e-06  1.1e-05  5.1e-03  1.48e+00   -1.765157807e-04  -1.725458850e-04  1.1e-05  0.77  
+5   7.9e-11  7.8e-14  1.3e-13  1.00e+00   -2.905064653e-12  -2.879594456e-12  7.8e-14  0.82  
+Interior-point optimizer terminated. Time: 0.83. 
+
+Optimizer terminated. Time: 1.30    
+
+Interior-point solution summary
+  Problem status  : PRIMAL_AND_DUAL_FEASIBLE
+  Solution status : OPTIMAL
+  Primal.  obj: -2.9069950355e-12   nrm: 4e-14    Viol.  con: 0e+00    var: 4e-14  
+  Dual.    obj: -2.8492560747e-12   nrm: 1e+00    Viol.  con: 0e+00    var: 2e-15  
+Optimizer summary
+  Optimizer                 -                        time: 1.30    
+    Interior-point          - iterations : 5         time: 0.83    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 0         time: 0.00    
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.1000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.78%
+Testing set correctness: 0.73%
+Elapse time:     0.3914
+{Reference to non-existent field 'sol'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 28)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',28,0)">line 28</a>)
+         alpha=res.sol.itr.xx;
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 91)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',91,0)">line 91</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+clearclc
+{Undefined function or variable 'clearclc'.
+} 
+clear
+clc
+dbstop if error
+test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+
+C =
+
+    64
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.83%
+Testing set correctness: 0.89%
+Elapse time:     0.2650
+
+C =
+
+    32
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.79%
+Testing set correctness: 0.74%
+Elapse time:     0.9307
+
+C =
+
+     1
+
+
+p =
+
+    0.8000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.79%
+Testing set correctness: 0.76%
+Elapse time:     0.4691
+
+C =
+
+    0.1250
+
+
+p =
+
+    1.1000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.84%
+Testing set correctness: 0.76%
+Elapse time:     0.3154
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.83%
+Testing set correctness: 0.76%
+Elapse time:     0.3602
+==============================================
+Training set correctness: 81.63%
+Testing set correctness: 78.07%
+Average cpu_time:     2.3404
+
+testcorrstd =
+
+    5.2869
+
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+
+C =
+
+        2048
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.79%
+Testing set correctness: 0.77%
+Elapse time:     0.2823
+
+C =
+
+    0.5000
+
+
+p =
+
+    0.8000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.78%
+Testing set correctness: 0.81%
+Elapse time:     0.3681
+
+C =
+
+    16
+
+
+p =
+
+    0.5000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.80%
+Testing set correctness: 0.73%
+Elapse time:     0.4130
+
+C =
+
+   256
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.79%
+Testing set correctness: 0.84%
+Elapse time:     0.3115
+
+C =
+
+    0.1250
+
+
+p =
+
+    0.7000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.79%
+Testing set correctness: 0.75%
+Elapse time:     0.3266
+==============================================
+Training set correctness: 79.13%
+Testing set correctness: 78.07%
+Average cpu_time:     1.7016
+
+testcorrstd =
+
+    4.2346
+
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('svc', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m', 9)" style="font-weight:bold">svc</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/svc.m',9,0)">line 9</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train>svm', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 30)" style="font-weight:bold">K_svm_train>svm</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',30,0)">line 30</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('K_svm_train', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m', 4)" style="font-weight:bold">K_svm_train</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/K_svm_train.m',4,0)">line 4</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus>GridExplore', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 60)" style="font-weight:bold">hibiscus>GridExplore</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',60,0)">line 60</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('hibiscus', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m', 18)" style="font-weight:bold">hibiscus</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/hibiscus.m',18,0)">line 18</a>)
+
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('test_log', '/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m', 91)" style="font-weight:bold">test_log</a> (<a href="matlab: opentoline('/Users/melody/Desktop/2PTWSVM/NEW_PTWSVM/test_log.m',91,0)">line 91</a>)
+	Result=hibiscus(dtrain,Ctrain,k);
+} 
+clear
+clc
+if system_dependent('IsDebugMode')==1, dbquit; end
+clear
+clc
+test_log

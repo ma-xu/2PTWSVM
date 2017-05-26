@@ -1,0 +1,53 @@
+function [w1,w2,bias1,bias2] = svc(X,Y,v)
+
+      
+
+r=find(Y>0);
+r1=setdiff(1:length(X(:,1)),r);
+c=X(r,:);
+d=X(r1,:);
+
+
+
+[m,n]=size(c);e=ones(m,1);
+[m2,n2]=size(d);e2=ones(m2,1);
+
+
+vv=(v*m2-m);
+vvv=(v*m-m2);
+
+if vv==0
+    G=c'*c-v*d'*d;
+    [A,B]=eig(G);%A是向量，B是特征值,第一列向量对应其最小特征值
+    B=diag(B);
+    [B,index1]=min(B);
+    w1=A(:,index1(1,1));
+    bias1=mean(c)*w1;
+else
+ ccc=(v*e2'*d-e'*c);
+ddd=(v*e'*c-e2'*d);
+G=c'*c-v*d'*d+1/vv*ccc'*ccc;
+[A,B]=eig(G);%A是向量，B是特征值,第一列向量对应其最小特征值
+B=diag(B);
+[B,index1]=min(B);
+w1=A(:,index1(1,1));%得到第一列向量对应其最小特征值
+bias1=1/vv*ccc*w1;
+end
+
+if vvv==0
+   H=d'*d-v*c'*c;
+    [A2,B2]=eig(H);
+B2=diag(B2);
+[B2,index2]=min(B2);
+    w2=A(:,index2(1,1));
+    bias2=mean(d)*w2;
+else
+ H=d'*d-v*c'*c+1/vvv*ddd'*ddd;
+[A2,B2]=eig(H);
+B2=diag(B2);
+[B2,index2]=min(B2);
+w2=A2(:,index2(1,1));
+bias2=1/vvv*ddd*w2;
+
+end
+

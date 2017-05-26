@@ -1,0 +1,1600 @@
+>> test_log
+
+dataset =
+
+ionodata
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.0312
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 1
+Training set correctness: 0.80%
+Testing set correctness: 0.79%
+Elapse time:     0.1639
+
+C =
+
+    16
+
+
+p =
+
+    0.3000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.76%
+Testing set correctness: 0.71%
+Elapse time:     0.2047
+
+C =
+
+     2
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.77%
+Testing set correctness: 0.76%
+Elapse time:     0.3828
+
+C =
+
+    0.1250
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.81%
+Testing set correctness: 0.73%
+Elapse time:     0.3804
+
+C =
+
+    32
+
+
+p =
+
+    0.6000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.81%
+Testing set correctness: 0.76%
+Elapse time:     0.4829
+==============================================
+Training set correctness: 79.06%
+Testing set correctness: 74.93%
+Average cpu_time:     1.6146
+
+testcorrstd =
+
+    2.5180
+
+
+dataset =
+
+haberman
+
+
+ker =
+
+linear
+
+
+C =
+
+   2.4414e-04
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.76%
+Testing set correctness: 0.74%
+Elapse time:     0.1231
+
+C =
+
+   2.4414e-04
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.78%
+Testing set correctness: 0.75%
+Elapse time:     0.1345
+
+C =
+
+   2.4414e-04
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.76%
+Testing set correctness: 0.72%
+Elapse time:     0.1280
+
+C =
+
+   2.4414e-04
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.76%
+Testing set correctness: 0.80%
+Elapse time:     0.1283
+
+C =
+
+   2.4414e-04
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 5
+Training set correctness: 0.76%
+Testing set correctness: 0.76%
+Elapse time:     0.1268
+==============================================
+Training set correctness: 76.31%
+Testing set correctness: 75.49%
+Average cpu_time:     0.6407
+
+testcorrstd =
+
+    2.7477
+
+
+dataset =
+
+blood
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.79%
+Testing set correctness: 0.76%
+Elapse time:     2.1456
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 2
+Training set correctness: 0.78%
+Testing set correctness: 0.72%
+Elapse time:     1.1595
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.77%
+Testing set correctness: 0.81%
+Elapse time:     2.0241
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 4
+Training set correctness: 0.77%
+Testing set correctness: 0.79%
+Elapse time:     0.9379
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.78%
+Testing set correctness: 0.71%
+Elapse time:     2.0341
+==============================================
+Training set correctness: 77.71%
+Testing set correctness: 75.81%
+Average cpu_time:     8.3011
+
+testcorrstd =
+
+    3.7910
+
+
+dataset =
+
+monk2
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.3000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.64%
+Testing set correctness: 0.69%
+Elapse time:     0.5404
+
+C =
+
+     4
+
+
+p =
+
+    0.6000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.57%
+Testing set correctness: 0.54%
+Elapse time:     0.4164
+
+C =
+
+    0.0625
+
+
+p =
+
+    0.6000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.66%
+Testing set correctness: 0.63%
+Elapse time:     0.6032
+
+C =
+
+    16
+
+
+p =
+
+    1.1000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.65%
+Testing set correctness: 0.63%
+Elapse time:     0.4547
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.3000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.65%
+Testing set correctness: 0.67%
+Elapse time:     0.5542
+==============================================
+Training set correctness: 63.35%
+Testing set correctness: 63.39%
+Average cpu_time:     2.5690
+
+testcorrstd =
+
+    5.1198
+
+
+dataset =
+
+monk3
+
+
+ker =
+
+linear
+
+
+C =
+
+     2
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.79%
+Testing set correctness: 0.81%
+Elapse time:     0.4818
+
+C =
+
+     2
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.81%
+Testing set correctness: 0.72%
+Elapse time:     0.4698
+
+C =
+
+     2
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.78%
+Testing set correctness: 0.84%
+Elapse time:     0.4731
+
+C =
+
+    0.0156
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.84%
+Testing set correctness: 0.81%
+Elapse time:     0.5310
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 5
+Training set correctness: 0.81%
+Testing set correctness: 0.76%
+Elapse time:     0.3710
+==============================================
+Training set correctness: 80.82%
+Testing set correctness: 78.70%
+Average cpu_time:     2.3267
+
+testcorrstd =
+
+    4.2301
+
+
+dataset =
+
+wpbc
+
+
+ker =
+
+linear
+
+
+C =
+
+     1
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 1
+Training set correctness: 0.85%
+Testing set correctness: 0.87%
+Elapse time:     0.0962
+
+C =
+
+     8
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.82%
+Testing set correctness: 0.79%
+Elapse time:     0.1329
+
+C =
+
+     2
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 3
+Training set correctness: 0.81%
+Testing set correctness: 0.82%
+Elapse time:     0.1053
+
+C =
+
+     8
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 4
+Training set correctness: 0.77%
+Testing set correctness: 0.72%
+Elapse time:     0.1076
+
+C =
+
+     4
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 5
+Training set correctness: 0.76%
+Testing set correctness: 0.77%
+Elapse time:     0.1028
+==============================================
+Training set correctness: 80.41%
+Testing set correctness: 79.42%
+Average cpu_time:     0.5448
+
+testcorrstd =
+
+    5.0278
+
+
+dataset =
+
+bupadata
+
+
+ker =
+
+linear
+
+
+C =
+
+     4
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.66%
+Testing set correctness: 0.58%
+Elapse time:     0.1563
+
+C =
+
+     8
+
+
+p =
+
+    1.3000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.70%
+Testing set correctness: 0.68%
+Elapse time:     0.1571
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.69%
+Testing set correctness: 0.59%
+Elapse time:     0.2259
+
+C =
+
+   128
+
+
+p =
+
+    1.7000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.64%
+Testing set correctness: 0.54%
+Elapse time:     0.1728
+
+C =
+
+     8
+
+
+p =
+
+    0.8000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.64%
+Testing set correctness: 0.72%
+Elapse time:     0.1680
+==============================================
+Training set correctness: 66.59%
+Testing set correctness: 62.32%
+Average cpu_time:     0.8801
+
+testcorrstd =
+
+    6.9202
+
+
+dataset =
+
+checkdata
+
+
+ker =
+
+linear
+
+
+C =
+
+   128
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.53%
+Testing set correctness: 0.53%
+Elapse time:     1.0685
+
+C =
+
+    32
+
+
+p =
+
+    1.4000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.51%
+Testing set correctness: 0.42%
+Elapse time:     1.0321
+
+C =
+
+    32
+
+
+p =
+
+    0.6000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.52%
+Testing set correctness: 0.47%
+Elapse time:     1.1090
+
+C =
+
+    32
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.53%
+Testing set correctness: 0.51%
+Elapse time:     1.0093
+
+C =
+
+     4
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.52%
+Testing set correctness: 0.53%
+Elapse time:     0.8426
+==============================================
+Training set correctness: 52.00%
+Testing set correctness: 49.20%
+Average cpu_time:     5.0615
+
+testcorrstd =
+
+    4.2732
+
+
+dataset =
+
+ticdata
+
+
+ker =
+
+linear
+
+
+C =
+
+     2
+
+
+p =
+
+    0.6000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.41%
+Testing set correctness: 0.42%
+Elapse time:     1.0928
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.9000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.63%
+Testing set correctness: 0.56%
+Elapse time:     1.7754
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.8000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.62%
+Testing set correctness: 0.63%
+Elapse time:     1.3263
+
+C =
+
+    0.1250
+
+
+p =
+
+    1.5000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.65%
+Testing set correctness: 0.62%
+Elapse time:     1.5696
+
+C =
+
+    0.2500
+
+
+p =
+
+    1.5000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.68%
+Testing set correctness: 0.67%
+Elapse time:     1.4903
+==============================================
+Training set correctness: 59.89%
+Testing set correctness: 58.03%
+Average cpu_time:     7.2543
+
+testcorrstd =
+
+    8.5664
+
+
+dataset =
+
+heart
+
+
+ker =
+
+linear
+
+
+C =
+
+     8
+
+
+p =
+
+    1.3000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.88%
+Testing set correctness: 0.80%
+Elapse time:     0.1880
+
+C =
+
+    16
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.86%
+Testing set correctness: 0.80%
+Elapse time:     0.1922
+
+C =
+
+    32
+
+
+p =
+
+    1.1000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.87%
+Testing set correctness: 0.87%
+Elapse time:     0.2587
+
+C =
+
+    0.2500
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 4
+Training set correctness: 0.88%
+Testing set correctness: 0.83%
+Elapse time:     0.1240
+
+C =
+
+     4
+
+
+p =
+
+    1.4000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.83%
+Testing set correctness: 0.93%
+Elapse time:     0.1948
+==============================================
+Training set correctness: 86.30%
+Testing set correctness: 84.44%
+Average cpu_time:     0.9577
+
+testcorrstd =
+
+    4.9135
+
+
+dataset =
+
+australian
+
+
+ker =
+
+linear
+
+
+C =
+
+     4
+
+
+p =
+
+    1.7000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.85%
+Testing set correctness: 0.71%
+Elapse time:     0.8699
+
+C =
+
+     1
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 2
+Training set correctness: 0.82%
+Testing set correctness: 0.80%
+Elapse time:     0.6247
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 3
+Training set correctness: 0.84%
+Testing set correctness: 0.80%
+Elapse time:     0.5142
+
+C =
+
+   128
+
+
+p =
+
+    1.3000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.81%
+Testing set correctness: 0.84%
+Elapse time:     1.6944
+
+C =
+
+     1
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 5
+Training set correctness: 0.80%
+Testing set correctness: 0.88%
+Elapse time:     0.5513
+==============================================
+Training set correctness: 82.14%
+Testing set correctness: 80.72%
+Average cpu_time:     4.2546
+
+testcorrstd =
+
+    5.5490
+
+
+dataset =
+
+pimadata
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.2500
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 1
+Training set correctness: 0.75%
+Testing set correctness: 0.80%
+Elapse time:     0.6540
+
+C =
+
+     1
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 2
+Training set correctness: 0.78%
+Testing set correctness: 0.77%
+Elapse time:     0.8008
+
+C =
+
+     1
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 3
+Training set correctness: 0.78%
+Testing set correctness: 0.78%
+Elapse time:     0.7572
+
+C =
+
+    0.2500
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.78%
+Testing set correctness: 0.72%
+Elapse time:     0.8967
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.75%
+Testing set correctness: 0.79%
+Elapse time:     1.1778
+==============================================
+Training set correctness: 77.02%
+Testing set correctness: 77.22%
+Average cpu_time:     4.2865
+
+testcorrstd =
+
+    2.8696
+
+
+dataset =
+
+monk1
+
+
+ker =
+
+linear
+
+
+C =
+
+     1
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.67%
+Testing set correctness: 0.62%
+Elapse time:     0.3485
+
+C =
+
+    0.0078
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.69%
+Testing set correctness: 0.57%
+Elapse time:     0.6015
+
+C =
+
+    0.1250
+
+
+p =
+
+    1.6000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.71%
+Testing set correctness: 0.73%
+Elapse time:     0.5237
+
+C =
+
+    0.2500
+
+
+p =
+
+    0.2000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.65%
+Testing set correctness: 0.71%
+Elapse time:     0.3447
+
+C =
+
+    0.0625
+
+
+p =
+
+    0.5000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.65%
+Testing set correctness: 0.68%
+Elapse time:     0.4183
+==============================================
+Training set correctness: 67.51%
+Testing set correctness: 66.49%
+Average cpu_time:     2.2367
+
+testcorrstd =
+
+    5.9266
+
+
+dataset =
+
+sonar
+
+
+ker =
+
+linear
+
+
+C =
+
+    16
+
+
+p =
+
+    1.1000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.94%
+Testing set correctness: 0.59%
+Elapse time:     0.1080
+
+C =
+
+     2
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.91%
+Testing set correctness: 0.74%
+Elapse time:     0.1242
+
+C =
+
+    16
+
+
+p =
+
+    0.3000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.89%
+Testing set correctness: 0.66%
+Elapse time:     0.2097
+
+C =
+
+    0.2500
+
+
+p =
+
+    1.6000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.93%
+Testing set correctness: 0.64%
+Elapse time:     0.1082
+
+C =
+
+     4
+
+
+p =
+
+    1.6000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.87%
+Testing set correctness: 0.88%
+Elapse time:     0.1794
+==============================================
+Training set correctness: 90.86%
+Testing set correctness: 70.12%
+Average cpu_time:     0.7295
+
+testcorrstd =
+
+   10.2288
+
+
+dataset =
+
+spect
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.2500
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 1
+Training set correctness: 0.84%
+Testing set correctness: 0.72%
+Elapse time:     0.1541
+
+C =
+
+   2.4414e-04
+
+
+p =
+
+    1.2000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.61%
+Testing set correctness: 0.42%
+Elapse time:     0.1005
+
+C =
+
+    0.1250
+
+
+p =
+
+    0.9000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.63%
+Testing set correctness: 0.59%
+Elapse time:     0.3488
+
+C =
+
+    0.2500
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.78%
+Testing set correctness: 0.60%
+Elapse time:     0.1781
+
+C =
+
+    0.5000
+
+
+p =
+
+    1.8000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.82%
+Testing set correctness: 0.72%
+Elapse time:     0.1033
+==============================================
+Training set correctness: 73.59%
+Testing set correctness: 61.01%
+Average cpu_time:     0.8847
+
+testcorrstd =
+
+   11.1686
+
+
+dataset =
+
+germ
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 1
+Training set correctness: 0.78%
+Testing set correctness: 0.76%
+Elapse time:     1.4167
+
+C =
+
+     1
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.75%
+Testing set correctness: 0.83%
+Elapse time:     3.7888
+
+C =
+
+     1
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.76%
+Testing set correctness: 0.76%
+Elapse time:     3.3426
+
+C =
+
+    0.5000
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 4
+Training set correctness: 0.79%
+Testing set correctness: 0.76%
+Elapse time:     1.5427
+
+C =
+
+     1
+
+
+p =
+
+     2
+
+________________________________________________
+Fold 5
+Training set correctness: 0.78%
+Testing set correctness: 0.74%
+Elapse time:     1.6368
+==============================================
+Training set correctness: 77.17%
+Testing set correctness: 77.10%
+Average cpu_time:    11.7275
+
+testcorrstd =
+
+    3.2924
+
+
+dataset =
+
+cancer
+
+
+ker =
+
+linear
+
+
+C =
+
+    0.1250
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 1
+Training set correctness: 0.94%
+Testing set correctness: 0.94%
+Elapse time:     0.7397
+
+C =
+
+    0.0312
+
+
+p =
+
+    0.1000
+
+________________________________________________
+Fold 2
+Training set correctness: 0.93%
+Testing set correctness: 0.96%
+Elapse time:     0.6248
+
+C =
+
+    0.0625
+
+
+p =
+
+    0.9000
+
+________________________________________________
+Fold 3
+Training set correctness: 0.95%
+Testing set correctness: 0.89%
+Elapse time:     0.7732
+
+C =
+
+    0.0312
+
+
+p =
+
+    1.6000
+
+________________________________________________
+Fold 4
+Training set correctness: 0.94%
+Testing set correctness: 0.94%
+Elapse time:     0.7340
+
+C =
+
+    0.0625
+
+
+p =
+
+    1.9000
+
+________________________________________________
+Fold 5
+Training set correctness: 0.94%
+Testing set correctness: 0.95%
+Elapse time:     0.6787
+==============================================
+Training set correctness: 94.00%
+Testing set correctness: 93.55%
+Average cpu_time:     3.5504
+
+testcorrstd =
+
+    2.3558
+
+>> 
